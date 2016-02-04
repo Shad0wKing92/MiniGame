@@ -1,0 +1,13 @@
+C:\Users\jacob.berry\Desktop\MiniGameGD2\Temp\UnityVS_bin\Debug\Assembly-CSharp-firstpass.dll
+C:\Users\jacob.berry\Desktop\MiniGameGD2\Temp\UnityVS_bin\Debug\Assembly-CSharp-firstpass.pdb
+C:\Users\jacob.berry\Desktop\MiniGameGD2\Temp\UnityVS_bin\Debug\ProBuilderCore.dll
+C:\Users\jacob.berry\Desktop\MiniGameGD2\Temp\UnityVS_bin\Debug\ProBuilderMeshOps.dll
+C:\Users\jacob.berry\Desktop\MiniGameGD2\Temp\UnityVS_bin\Debug\ProCore.dll
+C:\Users\jacob.berry\Desktop\MiniGameGD2\Temp\UnityVS_bin\Debug\SixBySeven.dll
+C:\Users\jacob.berry\Desktop\MiniGameGD2\Temp\UnityVS_bin\Debug\UnityEditor.dll
+C:\Users\jacob.berry\Desktop\MiniGameGD2\Temp\UnityVS_bin\Debug\UnityEngine.dll
+C:\Users\jacob.berry\Desktop\MiniGameGD2\obj\Debug\UnityVS.MiniGameGD2.CSharp.Plugins.csprojResolveAssemblyReference.cache
+C:\Users\jacob.berry\Desktop\MiniGameGD2\obj\Debug\Assembly-CSharp-firstpass.dll
+C:\Users\jacob.berry\Desktop\MiniGameGD2\obj\Debug\Assembly-CSharp-firstpass.pdb
+C:\Users\jacob.berry\Desktop\MiniGameGD2\Temp\UnityVS_bin\Debug\UnityEngine.xml
+C:\Users\jacob.berry\Desktop\MiniGameGD2\Temp\UnityVS_bin\Debug\UnityEditor.xml
