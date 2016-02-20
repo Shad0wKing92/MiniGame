@@ -23,8 +23,8 @@ public class PointManager : MonoBehaviour {
         //soundManager.AudioSource.Play(); Bad Ping
 	}
 
-	void OnGUI(){
-		GUI.Label (new Rect (10, 10, 150, 150), "Score: " + score);
-        
-	}
+//	void OnGUI(){
+//		GUI.Label (new Rect (10, 10, 150, 150), "Score: " + score);
+//        
+//	}
 }
