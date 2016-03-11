@@ -1,0 +1,92 @@
+Initialize engine version: 5.1.2f1 (afd2369b692a)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA Quadro K2000 (ID=0xffe)
+    Vendor:   NVIDIA
+    VRAM:     1974 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\jacob.berry\Desktop\GitHub\MiniGame\MiniGameGD2\MiniGunV2_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\jacob.berry\Desktop\GitHub\MiniGame\MiniGameGD2\MiniGunV2_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\jacob.berry\Desktop\GitHub\MiniGame\MiniGameGD2\MiniGunV2_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\jacob.berry\Desktop\GitHub\MiniGame\MiniGameGD2\MiniGunV2_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\jacob.berry\Desktop\GitHub\MiniGame\MiniGameGD2\MiniGunV2_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\jacob.berry\Desktop\GitHub\MiniGame\MiniGameGD2\MiniGunV2_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\jacob.berry\Desktop\GitHub\MiniGame\MiniGameGD2\MiniGunV2_Data\Managed\Assembly-UnityScript-firstpass.dll (this message is harmless)
+Loading C:\Users\jacob.berry\Desktop\GitHub\MiniGame\MiniGameGD2\MiniGunV2_Data\Managed\Assembly-UnityScript-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\jacob.berry\Desktop\GitHub\MiniGame\MiniGameGD2\MiniGunV2_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\jacob.berry\Desktop\GitHub\MiniGame\MiniGameGD2\MiniGunV2_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\jacob.berry\Desktop\GitHub\MiniGame\MiniGameGD2\MiniGunV2_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\jacob.berry\Desktop\GitHub\MiniGame\MiniGameGD2\MiniGunV2_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\jacob.berry\Desktop\GitHub\MiniGame\MiniGameGD2\MiniGunV2_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading C:\Users\jacob.berry\Desktop\GitHub\MiniGame\MiniGameGD2\MiniGunV2_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+Platform assembly: C:\Users\jacob.berry\Desktop\GitHub\MiniGame\MiniGameGD2\MiniGunV2_Data\Managed\ProBuilderCore.dll (this message is harmless)
+Loading C:\Users\jacob.berry\Desktop\GitHub\MiniGame\MiniGameGD2\MiniGunV2_Data\Managed\ProBuilderCore.dll into Unity Child Domain
+Platform assembly: C:\Users\jacob.berry\Desktop\GitHub\MiniGame\MiniGameGD2\MiniGunV2_Data\Managed\ProBuilderMeshOps.dll (this message is harmless)
+Loading C:\Users\jacob.berry\Desktop\GitHub\MiniGame\MiniGameGD2\MiniGunV2_Data\Managed\ProBuilderMeshOps.dll into Unity Child Domain
+Platform assembly: C:\Users\jacob.berry\Desktop\GitHub\MiniGame\MiniGameGD2\MiniGunV2_Data\Managed\ProCore.dll (this message is harmless)
+Loading C:\Users\jacob.berry\Desktop\GitHub\MiniGame\MiniGameGD2\MiniGunV2_Data\Managed\ProCore.dll into Unity Child Domain
+Platform assembly: C:\Users\jacob.berry\Desktop\GitHub\MiniGame\MiniGameGD2\MiniGunV2_Data\Managed\SixBySeven.dll (this message is harmless)
+Loading C:\Users\jacob.berry\Desktop\GitHub\MiniGame\MiniGameGD2\MiniGunV2_Data\Managed\SixBySeven.dll into Unity Child Domain
+Platform assembly: C:\Users\jacob.berry\Desktop\GitHub\MiniGame\MiniGameGD2\MiniGunV2_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\jacob.berry\Desktop\GitHub\MiniGame\MiniGameGD2\MiniGunV2_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\jacob.berry\Desktop\GitHub\MiniGame\MiniGameGD2\MiniGunV2_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\jacob.berry\Desktop\GitHub\MiniGame\MiniGameGD2\MiniGunV2_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+- Completed reload, in  0.054 seconds
+<RI> Initializing input.
+<RI> Input initialized.
+desktop: 1920x1200 59Hz; virtual: 3840x1200 at -1920,0
+<RI> Initialized touch support.
+Platform assembly: C:\Users\jacob.berry\Desktop\GitHub\MiniGame\MiniGameGD2\MiniGunV2_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\jacob.berry\Desktop\GitHub\MiniGame\MiniGameGD2\MiniGunV2_Data\Managed\System.dll (this message is harmless)
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 1904 -> priority: 1 
+  Thread -> id: 1600 -> priority: 1 
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 3.335444 ms
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 922.
+Total: 2.400789 ms (FindLiveObjects: 0.022240 ms CreateObjectMapping: 0.021954 ms MarkObjects: 2.299854 ms  DeleteObjects: 0.056455 ms)
+
+(-3.5, -3.1, -7.6)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+(3.6, 3.9, -7.6)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+(-3.8, 4.2, -7.6)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.446746 ms
+
+Unloading 62 unused Assets to reduce memory usage. Loaded Objects now: 922.
+Total: 2.596388 ms (FindLiveObjects: 0.030223 ms CreateObjectMapping: 0.023380 ms MarkObjects: 2.316676 ms  DeleteObjects: 0.225537 ms)
+
+(3.6, -3.2, -7.6)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+(-3.8, 0.8, -7.6)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+(-3.2, -3.2, -7.6)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+(0.2, 0.5, -7.6)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+(0.0, 4.0, -7.6)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+(-3.6, 4.0, -7.6)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+

@@ -1,16 +1,18 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 
 public class PointManager : MonoBehaviour {
 
 	public int score;
+	public Text pointText;
     
 	void Start () {
     
 	}
 	
 	void Update () {
-	
+		pointText.text = "Score: " + score;
 	}
 
 	public void AddToScore(int amount){
