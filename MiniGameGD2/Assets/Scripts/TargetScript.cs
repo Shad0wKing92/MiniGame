@@ -8,6 +8,8 @@ public class TargetScript : MonoBehaviour {
 	public int TargetPointValue;
 	PointManager PM;
 	Bullet BS;
+	public GameObject GoodParticle;
+	public GameObject BadParticle;
 
 	void Start () {
 		PM = GameObject.FindGameObjectWithTag ("PointManager").GetComponent<PointManager> ();
@@ -23,9 +25,11 @@ public class TargetScript : MonoBehaviour {
 			Destroy(other.collider);
 		}
         if (!BS.toxic){
+			Instantiate(GoodParticle, other.transform.position, other.transform.rotation);
             PM.AddToScore(TargetPointValue);
         }
         else{
+			Instantiate(BadParticle, other.transform.position, other.transform.rotation);
             PM.SubFromScore(TargetPointValue);
         }
 

@@ -6,6 +6,7 @@ public class PointManager : MonoBehaviour {
 
 	public int score;
 	public Text pointText;
+
     
 	void Start () {
     
@@ -17,6 +18,7 @@ public class PointManager : MonoBehaviour {
 
 	public void AddToScore(int amount){
 		score += amount;
+
         //soundManager.AudioSource.Play(); Good Ping
 	}
 

@@ -1,0 +1,210 @@
+Initialize engine version: 5.1.2f1 (afd2369b692a)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 10.0]
+    Renderer: NVIDIA Quadro FX 3800 (ID=0x5ff)
+    Vendor:   NVIDIA
+    VRAM:     989 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\jacob.berry\Desktop\GitHub\MiniGame\MiniGameGD2\MiniGunV3_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\jacob.berry\Desktop\GitHub\MiniGame\MiniGameGD2\MiniGunV3_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\jacob.berry\Desktop\GitHub\MiniGame\MiniGameGD2\MiniGunV3_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\jacob.berry\Desktop\GitHub\MiniGame\MiniGameGD2\MiniGunV3_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\jacob.berry\Desktop\GitHub\MiniGame\MiniGameGD2\MiniGunV3_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\jacob.berry\Desktop\GitHub\MiniGame\MiniGameGD2\MiniGunV3_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\jacob.berry\Desktop\GitHub\MiniGame\MiniGameGD2\MiniGunV3_Data\Managed\Assembly-UnityScript-firstpass.dll (this message is harmless)
+Loading C:\Users\jacob.berry\Desktop\GitHub\MiniGame\MiniGameGD2\MiniGunV3_Data\Managed\Assembly-UnityScript-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\jacob.berry\Desktop\GitHub\MiniGame\MiniGameGD2\MiniGunV3_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\jacob.berry\Desktop\GitHub\MiniGame\MiniGameGD2\MiniGunV3_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\jacob.berry\Desktop\GitHub\MiniGame\MiniGameGD2\MiniGunV3_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\jacob.berry\Desktop\GitHub\MiniGame\MiniGameGD2\MiniGunV3_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\jacob.berry\Desktop\GitHub\MiniGame\MiniGameGD2\MiniGunV3_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading C:\Users\jacob.berry\Desktop\GitHub\MiniGame\MiniGameGD2\MiniGunV3_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+Platform assembly: C:\Users\jacob.berry\Desktop\GitHub\MiniGame\MiniGameGD2\MiniGunV3_Data\Managed\ProBuilderCore.dll (this message is harmless)
+Loading C:\Users\jacob.berry\Desktop\GitHub\MiniGame\MiniGameGD2\MiniGunV3_Data\Managed\ProBuilderCore.dll into Unity Child Domain
+Platform assembly: C:\Users\jacob.berry\Desktop\GitHub\MiniGame\MiniGameGD2\MiniGunV3_Data\Managed\ProBuilderMeshOps.dll (this message is harmless)
+Loading C:\Users\jacob.berry\Desktop\GitHub\MiniGame\MiniGameGD2\MiniGunV3_Data\Managed\ProBuilderMeshOps.dll into Unity Child Domain
+Platform assembly: C:\Users\jacob.berry\Desktop\GitHub\MiniGame\MiniGameGD2\MiniGunV3_Data\Managed\ProCore.dll (this message is harmless)
+Loading C:\Users\jacob.berry\Desktop\GitHub\MiniGame\MiniGameGD2\MiniGunV3_Data\Managed\ProCore.dll into Unity Child Domain
+Platform assembly: C:\Users\jacob.berry\Desktop\GitHub\MiniGame\MiniGameGD2\MiniGunV3_Data\Managed\SixBySeven.dll (this message is harmless)
+Loading C:\Users\jacob.berry\Desktop\GitHub\MiniGame\MiniGameGD2\MiniGunV3_Data\Managed\SixBySeven.dll into Unity Child Domain
+- Completed reload, in  0.215 seconds
+<RI> Initializing input.
+<RI> Input initialized.
+desktop: 1920x1200 59Hz; virtual: 3840x1200 at -1920,0
+<RI> Initialized touch support.
+Platform assembly: C:\Users\jacob.berry\Desktop\GitHub\MiniGame\MiniGameGD2\MiniGunV3_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\jacob.berry\Desktop\GitHub\MiniGame\MiniGameGD2\MiniGunV3_Data\Managed\System.dll (this message is harmless)
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 190c -> priority: 1 
+  Thread -> id: 13ec -> priority: 1 
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 4.121222 ms
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 942.
+Total: 3.155321 ms (FindLiveObjects: 0.056201 ms CreateObjectMapping: 0.046427 ms MarkObjects: 2.978688 ms  DeleteObjects: 0.073306 ms)
+
+(-3.8, 3.8, -7.6)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+(-0.1, 4.5, -7.6)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+(0.0, 4.5, -7.6)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+(0.0, 4.4, -7.6)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+(-3.7, 0.7, -7.6)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+(-3.7, 4.5, -7.6)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+(-0.1, 0.7, -7.6)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+(-0.1, 0.6, -7.6)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+(-3.5, 4.6, -7.6)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+(3.7, 0.7, -7.6)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+(0.1, 0.8, -7.6)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+(0.0, -3.2, -7.6)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.524775 ms
+
+Unloading 71 unused Assets to reduce memory usage. Loaded Objects now: 942.
+Total: 3.151132 ms (FindLiveObjects: 0.063183 ms CreateObjectMapping: 0.051314 ms MarkObjects: 2.895607 ms  DeleteObjects: 0.139980 ms)
+
+(-3.7, -3.1, -7.6)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+(0.0, 4.0, -7.6)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+(3.6, -3.1, -7.6)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+(0.0, -3.2, -7.6)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+(0.0, 0.3, -7.6)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+(0.0, 0.3, -7.6)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+(0.0, 0.3, -7.6)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+(0.0, 0.3, -7.6)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+(0.0, 0.3, -7.6)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+(0.0, 0.4, -7.6)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+(0.0, 0.5, -7.6)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+(0.0, 0.6, -7.6)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+(0.0, 0.6, -7.6)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+(0.0, 0.6, -7.6)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+(0.0, 0.6, -7.6)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+(0.0, 0.6, -7.6)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+(0.0, 0.6, -7.6)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+(0.0, 0.6, -7.6)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+(0.0, 0.6, -7.6)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+(0.0, 0.6, -7.6)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+(0.0, 0.6, -7.6)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+(0.0, 0.6, -7.6)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+(0.0, 0.6, -7.6)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+(0.0, 0.6, -7.6)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+(0.0, 0.6, -7.6)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+(0.0, 0.6, -7.6)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.984750 ms
+
+Unloading 83 unused Assets to reduce memory usage. Loaded Objects now: 942.
+Total: 3.108894 ms (FindLiveObjects: 0.065277 ms CreateObjectMapping: 0.051663 ms MarkObjects: 2.825791 ms  DeleteObjects: 0.165463 ms)
+
