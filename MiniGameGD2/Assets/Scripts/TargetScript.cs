@@ -20,6 +20,7 @@ public class TargetScript : MonoBehaviour {
             BS.MoveSprite(other.gameObject);
 			other.transform.GetComponent<Rigidbody>().velocity = new Vector3 (0, 0, 0);
 			other.rigidbody.constraints = RigidbodyConstraints.FreezeAll;
+			Destroy(other.collider);
 		}
         if (!BS.toxic){
             PM.AddToScore(TargetPointValue);
