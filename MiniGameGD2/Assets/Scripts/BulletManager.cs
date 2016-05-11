@@ -10,10 +10,11 @@ public class BulletManager : MonoBehaviour {
 //	public _ColorBullet currentColor;
 	[HideInInspector]public int number;
 	int totalBulletsFired;
+	ColorScript CS;
 
 	// Use this for initialization
 	void Start () {
-		number = Random.Range(0,9);
+		NewRand ();
 	}
 
 	void Update () {
@@ -26,6 +27,36 @@ public class BulletManager : MonoBehaviour {
 
 	public void NewRand(){
 		number = Random.Range(0,9);
+		switch (number) {
+		case 0:	
+			CS = GameObject.Find ("Pink").GetComponent<ColorScript> ();
+			break;
+		case 1:	
+			CS = GameObject.Find ("Red").GetComponent<ColorScript> ();
+			break;
+		case 2:	
+			CS = GameObject.Find ("Orange").GetComponent<ColorScript> ();
+			break;
+		case 3:	
+			CS = GameObject.Find ("Yellow").GetComponent<ColorScript> ();
+			break;
+		case 4:	
+			CS = GameObject.Find ("Green").GetComponent<ColorScript> ();
+			break;
+		case 5:	
+			CS = GameObject.Find ("Blue").GetComponent<ColorScript> ();
+			break;
+		case 6:	
+			CS = GameObject.Find ("Purple").GetComponent<ColorScript> ();
+			break;
+		case 7:	
+			CS = GameObject.Find ("Brown").GetComponent<ColorScript> ();
+			break;
+		case 8:	
+			CS = GameObject.Find ("Black").GetComponent<ColorScript> ();
+			break;
+		}
+		CS.ColSwitch ();
 	}
 
 	public void AddToTotalBulFir(){
