@@ -37,25 +37,26 @@ public class shooting : MonoBehaviour
 	{
 		if (Input.touchCount > 0) {
 			Touch touch = Input.GetTouch(0);
-			switch(touch.phase){
-			case TouchPhase.Began:
-				startPos = touch.position;
-				directionChosen = false;
-				break;
-			case TouchPhase.Moved:
-				direction = touch.position - startPos;
-				break;
-			case TouchPhase.Ended:
-				directionChosen = true;
-				Fire();
-				break;
+			if(TS.timerRunning){
+				switch(touch.phase){
+				case TouchPhase.Began:
+					startPos = touch.position;
+					directionChosen = false;
+					break;
+				case TouchPhase.Moved:
+					direction = touch.position - startPos;
+					break;
+				case TouchPhase.Ended:
+					directionChosen = true;
+					Fire();
+					break;
+				}
 			}
-
 		}
 
-		if (TS.timerRunning) {
-			if (Input.GetMouseButtonDown (0))
-				Fire ();
-		}
+//		if (TS.timerRunning) {
+//			if (Input.GetMouseButtonDown (0))
+//				Fire ();
+//		}
 	}
 }
