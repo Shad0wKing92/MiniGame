@@ -12,12 +12,16 @@ public class ColorScript : MonoBehaviour {
 	float time = 0.5f;
 	int tempt;
 	float ElapsedTime = 0.0f;
+	bool running = false;
 
 	// Use this for initialization
 	void Start () {
 
 		BS = GameObject.FindGameObjectWithTag ("Bullet").GetComponent<Bullet> ();
 		BM = GameObject.FindGameObjectWithTag ("BulletManager").GetComponent<BulletManager> ();
+
+		ColSwitch ();
+//		BM.NewRand ();
 
 		//Code that changes the color of the target itself
 		if (CurrentColor == _Color.Pink)
@@ -46,50 +50,64 @@ public class ColorScript : MonoBehaviour {
 		switch (BM.number) {
 			case 0:
 				if (CurrentColor == _Color.Pink) {
+					tempt = 0;
 					StartCoroutine (Highlight (Color.blue + Color.red + Color.yellow));
 				}
 				break;
 			case 1:
 				if (CurrentColor == _Color.Red) {
+					tempt = 1;
 					StartCoroutine (Highlight (Color.red));
 				}
 				break;
 			case 2:
 				if (CurrentColor == _Color.Orange) {
+					tempt = 2;
 					StartCoroutine (Highlight (new Color32 (255, 145, 0, 255)));
 				}
 				break;
 			case 3:
 				if (CurrentColor == _Color.Yellow) {
+					tempt = 3;
 					StartCoroutine (Highlight (Color.red + Color.yellow + Color.grey));
 				}
 				break;
 			case 4:
 				if (CurrentColor == _Color.Green) {
+					tempt = 4;
 					StartCoroutine (Highlight (Color.green));
 				}
 				break;
 			case 5:
 				if (CurrentColor == _Color.Blue) {
+					tempt = 5;
 					StartCoroutine (Highlight (Color.blue));
 				}
 				break;
 			case 6:
 				if (CurrentColor == _Color.Purple) {
+					tempt = 6;
 					StartCoroutine (Highlight (Color.magenta));
 				}
 				break;
 			case 7:
 				if (CurrentColor == _Color.Brown) {
+					tempt = 7;
 					StartCoroutine (Highlight (new Color32 (99, 59, 5, 255)));
 				}
 				break;
 			case 8:
 				if (CurrentColor == _Color.Black) {
+					tempt = 8;
 					StartCoroutine (Highlight (Color.grey));
 				}
 				break;
 		}
+//		if(BM.number == tempt && running){
+//			Debug.Log("damnit");
+//			StopAllCoroutines();
+//			running = false;	
+//		}
 	}
 
 	void OnTriggerEnter(Collider other){
@@ -115,28 +133,52 @@ public class ColorScript : MonoBehaviour {
 			BS.toxic = true;
 	}
 
+	void Update(){
+		if(BM.number != tempt && running){
+			StopAllCoroutines();
+			running = false;	
+			if (CurrentColor == _Color.Pink)
+				Border.GetComponent<Renderer>().material.color = Color.blue + Color.red + Color.yellow;
+			else if(CurrentColor == _Color.Red)
+				Border.GetComponent<Renderer>().material.color = Color.red;
+			else if(CurrentColor == _Color.Orange)
+				Border.GetComponent<Renderer>().material.color = new Color32(255, 145, 0, 255);
+			else if(CurrentColor == _Color.Yellow)
+				Border.GetComponent<Renderer>().material.color = Color.red + Color.yellow + Color.grey;
+			else if(CurrentColor == _Color.Green)
+				Border.GetComponent<Renderer>().material.color = Color.green;
+			else if(CurrentColor == _Color.Blue)
+				Border.GetComponent<Renderer>().material.color = Color.blue;
+			else if(CurrentColor == _Color.Purple)
+				Border.GetComponent<Renderer>().material.color = Color.magenta;
+			else if(CurrentColor == _Color.Brown)
+				Border.GetComponent<Renderer>().material.color = new Color32(99, 59, 5, 255);
+			else if(CurrentColor == _Color.Black)
+				Border.GetComponent<Renderer>().material.color = Color.grey;
+		}
+	}
+
 	IEnumerator Highlight(Color curdColor){
-		tempt = BM.number;
-		while (ElapsedTime < time) {
-			ElapsedTime += Time.deltaTime;
-			lerpedColor = Color.Lerp (Color.white, curdColor, (ElapsedTime / time));
-			Border.GetComponent<Renderer> ().material.color = lerpedColor;
-			yield return null;
+		while (tempt == BM.number) {
+			running = true;
+			while (ElapsedTime < time) {
+				ElapsedTime += Time.deltaTime;
+				lerpedColor = Color.Lerp (Color.black, curdColor, (ElapsedTime / time));
+				Border.GetComponent<Renderer> ().material.color = lerpedColor;
+				yield return null;
+			}
+	//		yield return new WaitForSeconds (time);
+			ElapsedTime = 0f;
+			while (ElapsedTime < time) {
+				ElapsedTime += Time.deltaTime;
+				lerpedColor = Color.Lerp (curdColor, Color.black, (ElapsedTime / time));
+				Border.GetComponent<Renderer> ().material.color = lerpedColor;
+				yield return null;
+			}
+	//		yield return new WaitForSeconds (time);
+			ElapsedTime = 0f;
 		}
-//		yield return new WaitForSeconds (time);
-		ElapsedTime = 0f;
-		while (ElapsedTime < time) {
-			ElapsedTime += Time.deltaTime;
-			lerpedColor = Color.Lerp (curdColor, Color.white, (ElapsedTime / time));
-			Border.GetComponent<Renderer> ().material.color = lerpedColor;
-			yield return null;
-		}
-//		yield return new WaitForSeconds (time);
-		ElapsedTime = 0f;
-		if (tempt == BM.number) {
-			StartCoroutine(Highlight(curdColor));
-		}else{
-			Border.GetComponent<Renderer> ().material.color = curdColor;
-		}
+		Border.GetComponent<Renderer> ().material.color = curdColor;
+//		running = false;
 	}
 }

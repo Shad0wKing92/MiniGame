@@ -26,7 +26,7 @@ public class shooting : MonoBehaviour
 		position = Camera.main.ScreenToWorldPoint (position);
 		Rigidbody bulletClone = Instantiate(bullet[BM.number], transform.position, Quaternion.identity) as Rigidbody;
 		bulletClone.transform.LookAt (position);
-		print (position);
+//		print (position);
         //soundManager.AudioSource.Play();
 		bulletClone.GetComponent<Rigidbody>().AddForce (bulletClone.transform.forward * bulletSpeed);
 		BM.AddToTotalBulFir ();

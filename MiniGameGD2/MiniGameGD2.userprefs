@@ -1,15 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\ColorScript.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\BulletManager.cs">
     <Files>
-      <File FileName="Assets\Scripts\ColorScript.cs" Line="139" Column="63" />
-      <File FileName="Assets\Scripts\PointManager.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Timer.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\TargetScript.cs" Line="32" Column="19" />
-      <File FileName="Assets\Scripts\CurColor.cs" Line="18" Column="26" />
-      <File FileName="Assets\Scripts\BulletManager.cs" Line="49" Column="11" />
-      <File FileName="Assets\Scripts\Bullet.cs" Line="60" Column="1" />
-      <File FileName="Assets\Scripts\shooting.cs" Line="61" Column="2" />
+      <File FileName="Assets\Scripts\ColorScript.cs" Line="50" Column="1" />
+      <File FileName="Assets\Scripts\BulletManager.cs" Line="17" Column="10" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
