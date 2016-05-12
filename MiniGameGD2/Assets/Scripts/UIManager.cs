@@ -19,6 +19,6 @@ public class UIManager : MonoBehaviour {
 	}
 
 	public void StartClick(Timer timer){
-			timer.StartTime();
+		timer.StartTime();
 	}
 }

@@ -35,9 +35,9 @@ public class shooting : MonoBehaviour
 	
 	void Update () 
 	{
-		if (Input.touchCount > 0) {
-			Touch touch = Input.GetTouch(0);
-			if(TS.timerRunning){
+		if(TS.timerRunning){
+			if (Input.touchCount > 0) {
+				Touch touch = Input.GetTouch(0);
 				switch(touch.phase){
 				case TouchPhase.Began:
 					startPos = touch.position;

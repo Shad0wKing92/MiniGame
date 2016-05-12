@@ -42,6 +42,7 @@ public class Timer : MonoBehaviour {
 
 	public void StartTime()
 	{
+		StartCoroutine(wait());
 		timerRunning = true;
 		StartCoroutine (Clock ());
 	}
@@ -56,6 +57,10 @@ public class Timer : MonoBehaviour {
 		if (timer == 0) {
 			timerRunning = false;
 		}
+	}
+
+	IEnumerator wait(){
+		yield return new WaitForSeconds(0.1f);
 	}
 
 //	public void StartClick(){
