@@ -47,6 +47,7 @@ public class ColorScript : MonoBehaviour {
 	
 	// Update is called once per frame
 	public void ColSwitch () {
+
 		switch (BM.number) {
 			case 0:
 				if (CurrentColor == _Color.Pink) {
@@ -136,6 +137,7 @@ public class ColorScript : MonoBehaviour {
 	void Update(){
 		if(BM.number != tempt && running){
 			StopAllCoroutines();
+			Outline.GetComponent<Renderer> ().material.color = Color.black;
 			running = false;	
 			if (CurrentColor == _Color.Pink)
 				Border.GetComponent<Renderer>().material.color = Color.blue + Color.red + Color.yellow;
@@ -177,8 +179,11 @@ public class ColorScript : MonoBehaviour {
 			}
 	//		yield return new WaitForSeconds (time);
 			ElapsedTime = 0f;
+//			if(tempt != BM.number){
+//				Debug.Log("hit");
+//				
+//			}
 		}
-		Outline.GetComponent<Renderer> ().material.color = Color.black;
 //		running = false;
 	}
 }
