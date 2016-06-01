@@ -54,9 +54,9 @@ public class shooting : MonoBehaviour
 			}
 		}
 
-//		if (TS.timerRunning) {
-//			if (Input.GetMouseButtonDown (0))
-//				Fire ();
-//		}
+		if (TS.timerRunning) {
+			if (Input.GetMouseButtonDown (0))
+				Fire ();
+		}
 	}
 }

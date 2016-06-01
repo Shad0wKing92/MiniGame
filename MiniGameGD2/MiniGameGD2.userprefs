@@ -1,10 +1,10 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Timer.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\ColorScript.cs">
     <Files>
-      <File FileName="Assets\Scripts\shooting.cs" Line="61" Column="3" />
-      <File FileName="Assets\Scripts\UIManager.cs" Line="25" Column="3" />
-      <File FileName="Assets\Scripts\Timer.cs" Line="45" Column="26" />
+      <File FileName="Assets\Scripts\Timer.cs" Line="106" Column="30" />
+      <File FileName="Assets\Scripts\ColorScript.cs" Line="181" Column="3" />
+      <File FileName="Assets\Scripts\PointManager.cs" Line="35" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

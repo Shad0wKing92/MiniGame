@@ -5,7 +5,7 @@ public class ColorScript : MonoBehaviour {
 
 	public enum _Color{Pink, Red, Orange, Yellow, Green, Blue, Purple, Brown, Black};
 	public _Color CurrentColor;
-	public GameObject Border;
+	public GameObject Border, Outline;
 	Bullet BS;
 	BulletManager BM;
 	Color lerpedColor = Color.white;
@@ -51,55 +51,55 @@ public class ColorScript : MonoBehaviour {
 			case 0:
 				if (CurrentColor == _Color.Pink) {
 					tempt = 0;
-					StartCoroutine (Highlight (Color.blue + Color.red + Color.yellow));
+					StartCoroutine (Highlight ());
 				}
 				break;
 			case 1:
 				if (CurrentColor == _Color.Red) {
 					tempt = 1;
-					StartCoroutine (Highlight (Color.red));
+					StartCoroutine (Highlight ());
 				}
 				break;
 			case 2:
 				if (CurrentColor == _Color.Orange) {
 					tempt = 2;
-					StartCoroutine (Highlight (new Color32 (255, 145, 0, 255)));
+					StartCoroutine (Highlight ());
 				}
 				break;
 			case 3:
 				if (CurrentColor == _Color.Yellow) {
 					tempt = 3;
-					StartCoroutine (Highlight (Color.red + Color.yellow + Color.grey));
+					StartCoroutine (Highlight ());
 				}
 				break;
 			case 4:
 				if (CurrentColor == _Color.Green) {
 					tempt = 4;
-					StartCoroutine (Highlight (Color.green));
+					StartCoroutine (Highlight ());
 				}
 				break;
 			case 5:
 				if (CurrentColor == _Color.Blue) {
 					tempt = 5;
-					StartCoroutine (Highlight (Color.blue));
+					StartCoroutine (Highlight ());
 				}
 				break;
 			case 6:
 				if (CurrentColor == _Color.Purple) {
 					tempt = 6;
-					StartCoroutine (Highlight (Color.magenta));
+					StartCoroutine (Highlight ());
 				}
 				break;
 			case 7:
 				if (CurrentColor == _Color.Brown) {
 					tempt = 7;
-					StartCoroutine (Highlight (new Color32 (99, 59, 5, 255)));
+					StartCoroutine (Highlight ());
 				}
 				break;
 			case 8:
 				if (CurrentColor == _Color.Black) {
 					tempt = 8;
-					StartCoroutine (Highlight (Color.grey));
+					StartCoroutine (Highlight ());
 				}
 				break;
 		}
@@ -158,27 +158,27 @@ public class ColorScript : MonoBehaviour {
 		}
 	}
 
-	IEnumerator Highlight(Color curdColor){
+	IEnumerator Highlight(){
 		while (tempt == BM.number) {
 			running = true;
 			while (ElapsedTime < time) {
 				ElapsedTime += Time.deltaTime;
-				lerpedColor = Color.Lerp (Color.black, curdColor, (ElapsedTime / time));
-				Border.GetComponent<Renderer> ().material.color = lerpedColor;
+				lerpedColor = Color.Lerp (Color.black, Color.white, (ElapsedTime / time));
+				Outline.GetComponent<Renderer> ().material.color = lerpedColor;
 				yield return null;
 			}
 	//		yield return new WaitForSeconds (time);
 			ElapsedTime = 0f;
 			while (ElapsedTime < time) {
 				ElapsedTime += Time.deltaTime;
-				lerpedColor = Color.Lerp (curdColor, Color.black, (ElapsedTime / time));
-				Border.GetComponent<Renderer> ().material.color = lerpedColor;
+				lerpedColor = Color.Lerp (Color.white, Color.black, (ElapsedTime / time));
+				Outline.GetComponent<Renderer> ().material.color = lerpedColor;
 				yield return null;
 			}
 	//		yield return new WaitForSeconds (time);
 			ElapsedTime = 0f;
 		}
-		Border.GetComponent<Renderer> ().material.color = curdColor;
+		Outline.GetComponent<Renderer> ().material.color = Color.black;
 //		running = false;
 	}
 }
